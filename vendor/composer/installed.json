@@ -1,0 +1,126 @@
+[
+    {
+        "name": "mikey179/vfsStream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikey179/vfsStream.git",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25 12:49:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    },
+    {
+        "name": "luthier/luthier",
+        "version": "v1.0.2-alpha",
+        "version_normalized": "1.0.2.0-alpha",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ingeniasoftware/luthier.git",
+            "reference": "9056d3f1fd237883112f908c94888fc9af7a9247"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ingeniasoftware/luthier/zipball/9056d3f1fd237883112f908c94888fc9af7a9247",
+            "reference": "9056d3f1fd237883112f908c94888fc9af7a9247",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "php": ">=5.6.0"
+        },
+        "time": "2017-01-21 03:25:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Luthier\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Anderson Salas",
+                "email": "me@andersonsalas.com.ve",
+                "homepage": "http://www.andersonsalas.com.ve",
+                "role": "Lead developer"
+            }
+        ],
+        "description": "Improved routing and middleware support for CodeIgniter framework",
+        "homepage": "http://www.ingeniasoftawre.com.ve",
+        "keywords": [
+            "codeigniter",
+            "middleware",
+            "routing"
+        ]
+    },
+    {
+        "name": "verot/class.upload.php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/verot/class.upload.php.git",
+            "reference": "f776dd7f790831abe34df4ea73652f1b4bd812ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/verot/class.upload.php/zipball/f776dd7f790831abe34df4ea73652f1b4bd812ac",
+            "reference": "f776dd7f790831abe34df4ea73652f1b4bd812ac",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=4"
+        },
+        "time": "2017-06-26 02:43:05",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/class.upload.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Colin Verot",
+                "email": "colin@verot.net"
+            }
+        ],
+        "description": "This PHP class uploads files and manipulates images very easily.",
+        "homepage": "http://www.verot.net/php_class_upload.htm",
+        "keywords": [
+            "gd",
+            "upload"
+        ]
+    }
+]

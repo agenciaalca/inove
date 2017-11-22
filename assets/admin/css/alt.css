@@ -1,0 +1,99 @@
+/* 
+
+Laranja: #23A9E1;
+Azul: #195F98;
+
+ */
+
+ .botaoUser { margin-bottom: 20px;}
+
+.w100 {width: 100px;}
+.w150 {width: 150px;}
+.w200 {width: 200px;}
+.w250 {width: 250px;}
+.w50 {width: 50px;}
+.modalDeletar { text-align: center; margin-top: 20px;}
+.vermelho { color: #FF0000}
+.uppercase { text-transform: uppercase;}
+.top20 { margin-top: 20px;}
+.top10 { margin-top: 10px;}
+.bot10 { margin-bottom: 10px;}
+.bot20 { margin-bottom: 20px;}
+.centro {text-align: center;}
+.tituloForm { font-weight: bold; margin-bottom: 5px;}
+.modalDeletar { text-align: center;}
+.vermelho { color: #FF0000}
+.botoes { margin-bottom: 15px;}
+.obri { color: #FF0000;}
+.obri:before {content: "*"; }
+
+
+#custom-search-input{
+    padding: 0px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 13px;
+}
+
+.logoMobile { margin-top: 5px;}
+
+.naoCadastrado { margin-top: 15px; text-align: center;}
+
+
+.check { margin-top: 10px;}
+.check li {list-style-type:none;}
+.check li:before {content: "\f105"; font-family: FontAwesome; padding-right: 6px; }
+.tituloWidget { font-weight: bold; text-transform: uppercase; font-size: 15px;}
+.itemAjuda { text-align: center; margin-bottom: 20px;}
+.tituloAjuda { font-weight: bold; text-transform: uppercase;}
+.botoesTransmissao { margin-top: 20px; margin-bottom: 20px;}
+.direita { text-align: right;}
+
+.valorTitulo {text-transform: uppercase;font-size: 20px; color: #000;}
+.preco {text-transform: uppercase;font-size: 35px; color: #000; font-weight: bold;}
+
+
+.btn-padrao, .btn-padrao:hover, .btn-padrao:focus, .btn-padrao:active, .btn-padrao.active, .btn-padrao.focus, .btn-padrao:active, .btn-padrao:focus, .btn-padrao:hover, .open > .dropdown-toggle.btn-padrao {
+    background-color: #195F98 !important;
+    border: 1px solid #195F98 !important;
+    color: #FFF !important;
+}
+
+
+.laranja {color: #23A9E1; }
+
+.btn-laranja, .btn-laranja:hover, .btn-laranja:focus, .btn-laranja:active, .btn-laranja.active, .btn-laranja.focus, .btn-laranja:active, .btn-laranja:focus, .btn-laranja:hover, .open > .dropdown-toggle.btn-laranja {
+    background-color: #23A9E1 !important;
+    border: 1px solid #23A9E1 !important;
+    color: #FFF !important;
+}
+
+.excluirVenda { margin-top: 0; text-transform: uppercase; }
+.excluirVenda a{ color: #FF0000; font-weight: bold;}
+
+.botaoCadastrarAgenda { text-transform: uppercase; margin-top: 5px;}

@@ -1,0 +1,5 @@
+.table>tbody>tr>td{ vertical-align: middle!important; }
+.thumbnail{ height: auto; }
+img{ max-width: 100%; }
+.remove{ position: absolute; right: 20px; top: 5px; color: #F44336; display:  none; }
+.draggable:hover .remove{ display: block; color: #F44336; }
