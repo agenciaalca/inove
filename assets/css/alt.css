@@ -6,10 +6,10 @@
 .azul { color: #0E4195}
 .centro { text-align: center;}
 .titulo { font-size: 16px; font-weight: bold; text-transform: uppercase; color: #383838; margin-bottom: 10px;}
-.titulo:before {content:url('../img/icone.png'); margin-right: 5px;}
+.titulo:before {content:url('../images/icone.png'); margin-right: 5px;}
 
 .tituloPagina { font-size: 20px; font-weight: bold; text-transform: uppercase; color: #FFF; margin-bottom: 10px; margin-top: 10px;}
-.tituloPagina:before {content:url('../img/icone.png'); margin-right: 5px;}
+.tituloPagina:before {content:url('../images/icone.png'); margin-right: 5px;}
 .barraPagina { background-color: #0E4195; height: 50px; width: 100%; }
 
 .top20 { margin-top: 20px;}

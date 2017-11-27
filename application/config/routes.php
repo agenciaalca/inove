@@ -184,8 +184,8 @@ $route['fale-conosco']			=	'site/SiteController/contact';
 $route['fale-conosco/send_mail']=	'site/SiteController/send_mail';
 
 $route['sobre-nos']                 =   'site/SiteController/about';
-$route['produtos/(:any)']           =   'site/SiteController/products/$1';
-$route['produtos/(:any)/(:any)']    =   'site/SiteController/products/$1/$2';
+$route['servicos/(:any)']           =   'site/SiteController/products/$1';
+$route['servicos/(:any)/(:any)']    =   'site/SiteController/products/$1/$2';
 $route['produto/(:any)']            =  'site/SiteController/product/$1';
 $route['clientes']                  =   'site/SiteController/customer';
 $route['dicas']                     =   'site/SiteController/tips';

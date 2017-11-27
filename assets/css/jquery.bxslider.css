@@ -32,7 +32,6 @@
 .bx-wrapper .bx-viewport {
 	
 	background: #fff;
-	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -52,7 +51,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	background: url(images/gondola.jpg) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;

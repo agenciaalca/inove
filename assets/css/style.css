@@ -1,0 +1,182 @@
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-default{
+    background-image: url("../images/bg.png") ;
+    background-repeat: repeat-x;
+    background-color: #1150a0;
+    border: none;
+}
+.navbar-default .navbar-nav > li> a{
+    color: white;
+}
+.navbar-default .navbar-nav > li> a:hover,
+.navbar-default .navbar-nav > li> a .active{
+    color: #d5d5d5;
+}
+.navbar-brand > img {
+    display: block;
+    margin-top: -5px;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #0956a4;
+    background-color: #e7e7e7;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    background-color: #0956a4;
+    color: white;
+}
+
+/*slider*/
+.carousel-control.right,
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+.carousel-inner .item img{
+    width: 100%;
+}
+.titulos-de-contexto {
+    text-align: center;
+}
+
+.titulos-de-contexto h1 {
+    color: white;
+    font-family: 'Montserrat', serif;
+    padding: 10px;
+}
+.titulos-de-contexto p{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.hrcont{
+    margin-bottom: -30px;
+}
+.btn .btn-custom{
+    background-color: #080808;
+    color: white;
+}
+/* nossas linhas de serviços */
+.out p:hover{
+    border-bottom: 2px solid #0956a4;
+}
+
+/* linha do contato */
+.block_title:before, .block_title:after {
+    content: "";
+    background: #fff;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 42%;
+    vertical-align: middle;
+}
+.block_title:before {
+    right: 0.5em;
+    margin-left: -42%;
+}
+.block_title:after {
+    left: 0.5em;
+    margin-right: -42%;
+}
+
+/*contato*/
+.form-control{
+    background-color: #080808;
+    color:#ffffff;
+    border: none;
+}
+input {
+    outline: none;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.cartoes-c{
+    padding-left: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #ffffff!important;
+    transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #ffffff!important;
+    transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+    opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+    opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #ffffff;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+    opacity: 0.5;
+}
+.informacoes-contato p{
+    margin-bottom: 0;
+}
+footer{
+    color: white;
+}
+footer .redes-sociais{
+    width:80%;
+    margin:0 auto;
+    padding: 25px 0 10px 0;
+    overflow: hidden;
+    position:relative;  
+    text-align: center;
+}
+.redes-sociais img:hover{
+    opacity: 0.7;
+}
+
+footer .redes-sociais a{
+    line-height:46px;
+    padding:15px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+footer .redes-sociais a:hover{
+    color:#000037;
+}
+footer .copyright{
+    text-align: center;
+    font-weight:300;
+    margin:0 auto;
+    font-size:14px;
+    line-height:36px;
+    color:#fff;
+}
+footer .copyright a{
+    color: white;
+    font-weight: bold; 
+}
+footer .copyright a:hover,
+footer .copyright a:active{
+    color: #00d287;
+}
