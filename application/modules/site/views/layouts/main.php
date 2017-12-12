@@ -64,74 +64,69 @@
 
         <footer id="footer" class="bgi-gray">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="footer-page">
-                            <div class="row">
-                                <div class="titulos-de-contexto ">
-                                    <h1 class="block_title">CONTATO</h1>
-                                    <p>Entre em contato consoco e tire suas dúvidas!</p>
-                                </div>
-                                <div id="contato" class="col-md-8">
-                                    <form method="post" action="index.php#contato" name="formulario-contato">
-                                        <div class="col-md-6">
-                                            <div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="nome" id="nome" value="" placeholder="nome*" required />
+               <div class="row">
+                     <div class="footer-page">
+                        <div class="titulos-de-contexto ">
+                            <h1 class="block_title">CONTATO</h1>
+                            <p>Entre em contato consoco e tire suas dúvidas!</p>
+                        </div>
+                        <div id="contato" class="col-md-8">
+                            <form method="post" action="index.php#contato" name="formulario-contato">
+                                <div class="col-md-6">
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="nome" id="nome" value="" placeholder="nome*" required />
 
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" name="email" id="email" value="" placeholder="email*" required>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="telefone" id="telefone" value="" placeholder="telefone*" required>
-                                                </div>
-                                            </div>
                                         </div>
-                                        <div class="col-md-6 ">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="exampleTextarea" rows="4" 
-                                                          id="message" name="mensagem" placeholder="mensagem*" required></textarea>
-                                            </div>
-                                            <div class="botao ">
-                                                <button class="btn btn-custom" id="submit" name="submit" type="submit" value="ENVIAR">Enviar Mensagem</button>
-                                            </div> 
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="informacoes-contato">
-                                        <p><i class="fa fa-envelope" aria-hidden="true"></i> contato@inovegondolas.com.br</p>
-                                        <p><i class="fa fa-whatsapp" aria-hidden="true"></i> (062) 3636-0111</p>
-                                        <p><i class="fa fa-globe" aria-hidden="true"></i> Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
                                     </div>
-                                    <div class="cartoes">
-                                        <div class="cartoes-c col-xs-4">
-                                            <img src="<?= base_url() ?>assets/img/icons-11.png">
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" value="" placeholder="email*" required>
                                         </div>
-                                        <div class="cartoes-c col-xs-4">
-                                            <img src="<?= base_url() ?>assets/img/icons-10.png">
-                                        </div>
-                                        <div class="cartoes-c col-xs-4">
-                                            <img src="<?= base_url() ?>assets/img/icons-08.png">
+                                    </div>
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="telefone" id="telefone" value="" placeholder="telefone*" required>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12">
-                                    <div class="redes-sociais">
-                                        <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/fb.png"></a>
-                                        <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/ig.png"></a>
-                                        <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/in.png"></a>
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="exampleTextarea" rows="4" 
+                                                  id="message" name="mensagem" placeholder="mensagem*" required></textarea>
                                     </div>
-
-                                    <div class="copyright">© INOVE GONDOLAS. ALL RIGHTS RESERVED. DESENVOLVIDO POR <a href="http://agenciaalca.com" target="_blank"> AGÊNCIA ALCA</a></div>        
+                                    <div class="botao ">
+                                        <button class="btn btn-custom" id="submit" name="submit" type="submit" value="ENVIAR">Enviar Mensagem</button>
+                                    </div> 
                                 </div>
-
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="informacoes-contato">
+                                <p><i class="fa fa-envelope" aria-hidden="true"></i> contato@inovegondolas.com.br</p>
+                                <p><i class="fa fa-whatsapp" aria-hidden="true"></i> (062) 3636-0111</p>
+                                <p><i class="fa fa-globe" aria-hidden="true"></i> Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
                             </div>
+                            <div class="cartoes">
+                                <div class="cartoes-c col-xs-4">
+                                    <img class="img-responsive" src="<?= base_url() ?>assets/img/icons-11.png">
+                                </div>
+                                <div class="cartoes-c col-xs-4">
+                                    <img class="img-responsive"  src="<?= base_url() ?>assets/img/icons-10.png">
+                                </div>
+                                <div class="cartoes-c col-xs-4">
+                                    <img class="img-responsive" src="<?= base_url() ?>assets/img/icons-08.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="redes-sociais">
+                                <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/fb.png"></a>
+                                <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/ig.png"></a>
+                                <a href="#" target="_blank"><img src="<?= base_url() ?>assets/images/in.png"></a>
+                            </div>
+
+                            <div class="copyright">© INOVE GONDOLAS. ALL RIGHTS RESERVED. DESENVOLVIDO POR <a href="http://agenciaalca.com" target="_blank"> AGÊNCIA ALCA</a></div>        
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,12 @@
+body{
+    max-width: 100%;
+}
+
+.conteudo-teste{
+    background-color: #000037;
+
+}
+
 .navbar{
     margin-bottom: 0;
 }
@@ -36,7 +45,7 @@
 }
 .carousel-control{
     position: absolute;
-    top: 50%;
+    top: 30%;
     z-index: 5;
     display: inline-block;
 }
@@ -64,12 +73,27 @@
     color: white;
 }
 /* nossas linhas de serviços */
-.out p:hover{
+.nossas-linhas{
+    position: relative;
+    height: 300px;
+}
+.nossas-linhas p:hover{
     border-bottom: 2px solid #0956a4;
+    width: 30%;
 }
 
+.nossas-linhas .absolute{
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-height: 30px;
+}
+.aesquerda{
+    width: 30%;
+}
 /* linha do contato */
-.block_title:before, .block_title:after {
+.block_title:before,
+.block_title:after {
     content: "";
     background: #fff;
     display: inline-block;
@@ -80,14 +104,16 @@
 }
 .block_title:before {
     right: 0.5em;
-    margin-left: -42%;
 }
 .block_title:after {
     left: 0.5em;
-    margin-right: -42%;
 }
 
 /*contato*/
+#contato{
+    padding-left: 0;
+    padding-right: 0;
+}
 .form-control{
     background-color: #080808;
     color:#ffffff;
@@ -153,7 +179,6 @@ footer .redes-sociais{
 }
 
 footer .redes-sociais a{
-    line-height:46px;
     padding:15px;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
@@ -179,4 +204,26 @@ footer .copyright a{
 footer .copyright a:hover,
 footer .copyright a:active{
     color: #00d287;
+}
+@media only screen and (max-width: 768px) {
+
+    .aesquerda{
+        width: 100%!important;
+    }
+    .nossas-linhas{
+        max-width: 100%;
+        height: 300px;
+
+    }
+    .block_title:before,
+    .block_title:after {
+        width: 20%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .block_title:before,
+    .block_title:after {
+        width: 34%;
+    }
 }

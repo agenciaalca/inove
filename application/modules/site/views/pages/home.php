@@ -1,6 +1,5 @@
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-    <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img class="img-responsive" src="<?= base_url() ?>assets/images/fundo.png" alt="...">
@@ -19,7 +18,6 @@
         </div>
     </div>
 
-    <!-- Controls -->
     <a class="left carousel-control scrooldown" href="#carousel-example-generic" role="button" data-slide="prev">
         <span>
             <img src="<?= base_url() ?>assets/images/seta_esq.png" />
@@ -41,21 +39,33 @@
             <?= $about ?>
             <div class="titulo linha">Seja bem vindo!</div>
             <p>Conteudo do sdjfsadkfjk</p>
-            
+
         </div>
 
-        <div class="col-md-6 bot20">
+        <div class="col-md-6">
             <div class="titulo linha">Conheça nossas linhas</div>
-            <div class="out overout">
-                <div class="col-md-4">
-                    <p>Armazenagem</p>
-                    <p>Casa</p>
-                    <p>Farmacia</p>
-                    <p>Mercado</p>
-                    <p>Festa</p>
-                </div>
-                <div class="col-md-8">
-                    <div class="in overout"><p></p></div>
+            <div class="nossas-linhas">
+                <div class="aesquerda">
+                    <div class="over1">
+                        <p>Armazenagem</p>
+                        <div class="absolute"></div>
+                    </div>
+                    <div class="over2">
+                        <p>Casa</p>
+                        <div class="absolute"></div>
+                    </div>
+                    <div class="over3">
+                        <p>Farmácia</p>
+                        <div class="absolute"></div>
+                    </div>
+                    <div class="over4">
+                        <p>Mercado</p>
+                        <div class="absolute"></div>
+                    </div>
+                    <div class="over5">
+                        <p>Festa</p>
+                        <div class="absolute"></div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2526,11 +2526,7 @@ input[type=number]::-moz-number-spin-down {
     padding-bottom: 55px;
     color: #ffffff;
 }
-.footer-nav .tt04 {
-    margin: 30px 0;
-    color: #ffffff;
-    text-transform: uppercase;
-}
+
 
 .contact-info {
     background: url("../images/front/map.png") no-repeat center bottom;
